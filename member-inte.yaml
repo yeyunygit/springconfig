@@ -1,0 +1,288 @@
+membersarea:
+  desc: 会员配置
+  members:
+    - platForm: "taxClass"
+      platFormName: "税学院"
+      member: "year"
+      memberName: "年卡会员"
+      orderTotal: "0.01"
+      payTotal: "0.01"
+      items:
+        - code: "110100"
+          appId: "31128"
+          count: 1
+          time:
+            unit: "Y"
+            count: 1
+        - code: "110001"
+          appId: "31128"
+          count: 30
+          time:
+            unit: "Y"
+            count: 1
+
+    - platForm: "hkjClass"
+      platFormName: "商学院"
+      member: "year1"
+      memberName: "钻石年卡会员"
+      #1998
+      orderTotal: "0.01"
+      payTotal: "0.01"
+      items:
+        - code: "120100"
+          appId: "31161"
+          count: 1
+          time:
+            unit: "Y"
+            count: 1
+        - code: "110001"
+          appId: "31161"
+          count: 30
+          time:
+            unit: "Y"
+            count: 1
+    - platForm: "hkjClass"
+      platFormName: "商学院"
+      member: "year2"
+      memberName: "铂金年卡会员"
+      #998
+      orderTotal: "0.01"
+      payTotal: "0.01"
+      items:
+        - code: "120300"
+          appId: "31161"
+          count: 1
+          time:
+            unit: "Y"
+            count: 1
+        - code: "110001"
+          appId: "31161"
+          count: 30
+          time:
+            unit: "Y"
+            count: 1
+    - platForm: "hkjClass"
+      platFormName: "商学院"
+      member: "year11"
+      memberName: "钻石年卡会员"
+      #1968
+      orderTotal: "0.02"
+      payTotal: "0.02"
+      items:
+        - code: "120100"
+          appId: "31161"
+          count: 1
+          time:
+            unit: "Y"
+            count: 1
+        - code: "110001"
+          appId: "31161"
+          count: 30
+          time:
+            unit: "Y"
+            count: 1
+    - platForm: "hkjClass"
+      platFormName: "商学院"
+      member: "year12"
+      memberName: "钻石年卡会员"
+      #1998
+      orderTotal: "0.03"
+      payTotal: "0.03"
+      items:
+      - code: "120100"
+        appId: "31161"
+        count: 1
+        time:
+          unit: "Y"
+          count: 1
+      - code: "110001"
+        appId: "31161"
+        count: 30
+        time:
+          unit: "Y"
+          count: 1
+    - platForm: "hkjClass"
+      platFormName: "商学院"
+      member: "year13"
+      memberName: "钻石年卡会员"
+      #1998
+      orderTotal: "0.04"
+      payTotal: "0.04"
+      items:
+      - code: "120100"
+        appId: "31161"
+        count: 1
+        time:
+          unit: "Y"
+          count: 1
+      - code: "110001"
+        appId: "31161"
+        count: 30
+        time:
+          unit: "Y"
+          count: 1
+    - platForm: "hkjClass"
+      platFormName: "商学院"
+      member: "year21"
+      memberName: "铂金年卡会员"
+      #998
+      orderTotal: "0.02"
+      payTotal: "0.02"
+      items:
+        - code: "120300"
+          appId: "31161"
+          count: 1
+          time:
+            unit: "Y"
+            count: 1
+        - code: "110001"
+          appId: "31161"
+          count: 30
+          time:
+            unit: "Y"
+            count: 1
+    - platForm: "hkjClass"
+      platFormName: "商学院"
+      member: "year22"
+      memberName: "铂金年卡会员"
+      #998
+      orderTotal: "0.03"
+      payTotal: "0.03"
+      items:
+      - code: "120300"
+        appId: "31161"
+        count: 1
+        time:
+          unit: "Y"
+          count: 1
+      - code: "110001"
+        appId: "31161"
+        count: 30
+        time:
+          unit: "Y"
+          count: 1
+    - platForm: "hkjClass"
+      platFormName: "商学院"
+      member: "year23"
+      memberName: "铂金年卡会员"
+      #998
+      orderTotal: "0.04"
+      payTotal: "0.04"
+      items:
+      - code: "120300"
+        appId: "31161"
+        count: 1
+        time:
+          unit: "Y"
+          count: 1
+      - code: "110001"
+        appId: "31161"
+        count: 30
+        time:
+          unit: "Y"
+          count: 1
+
+    - platForm: "hkjClass"
+      platFormName: "商学院"
+      member: "hjkcutting"
+      memberName: "好会计权益切割会员"
+      #998
+      orderTotal: "998"
+      payTotal: "998"
+      items:
+        - code: "120400"
+          appId: "31161"
+          count: 1
+          time:
+            unit: "Y"
+            count: 1
+        - code: "110001"
+          appId: "31161"
+          count: 30
+          time:
+            unit: "Y"
+            count: 1
+
+###############郑文健双节钜惠活动start############################
+    - platForm: "hkjClass"
+      platFormName: "商学院"
+      member: "year1DF"
+      memberName: "钻石年卡会员"
+      #1998
+      orderTotal: "0.04"
+      payTotal: "0.04"
+      items:
+        - code: "120100"
+          appId: "31161"
+          count: 1
+          time:
+            unit: "Y"
+            count: 1
+        - code: "110001"
+          appId: "31161"
+          count: 30
+          time:
+            unit: "Y"
+            count: 1
+    - platForm: "hkjClass"
+      platFormName: "商学院"
+      member: "year2DF"
+      memberName: "铂金年卡会员"
+      #998
+      orderTotal: "0.03"
+      payTotal: "0.03"
+      items:
+        - code: "120300"
+          appId: "31161"
+          count: 1
+          time:
+            unit: "Y"
+            count: 1
+        - code: "110001"
+          appId: "31161"
+          count: 30
+          time:
+            unit: "Y"
+            count: 1
+
+    - platForm: "hkjClass"
+      platFormName: "商学院"
+      member: "year1DF2"
+      memberName: "钻石年卡会员"
+      #1998
+      orderTotal: "0.02"
+      payTotal: "0.02"
+      items:
+        - code: "120100"
+          appId: "31161"
+          count: 1
+          time:
+            unit: "Y"
+            count: 1
+        - code: "110001"
+          appId: "31161"
+          count: 30
+          time:
+            unit: "Y"
+            count: 1
+    - platForm: "hkjClass"
+      platFormName: "商学院"
+      member: "year2DF2"
+      memberName: "铂金年卡会员"
+      #998
+      orderTotal: "0.01"
+      payTotal: "0.01"
+      items:
+        - code: "120300"
+          appId: "31161"
+          count: 1
+          time:
+            unit: "Y"
+            count: 1
+        - code: "110001"
+          appId: "31161"
+          count: 30
+          time:
+            unit: "Y"
+            count: 1
+###############郑文健双节钜惠活动end############################
