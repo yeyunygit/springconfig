@@ -1,0 +1,43 @@
+membersarea:
+  desc: 会员配置
+  members:
+    - platForm: "taxClass"
+      platFormName: "税学院"
+      member: "year"
+      memberName: "年卡会员"
+      orderTotal: "0.01"
+      payTotal: "0.01"
+      items:
+        - code: "110100"
+          appId: "31128"
+          count: 1
+          time:
+            unit: "Y"
+            count: 1
+        - code: "110001"
+          appId: "31128"
+          count: 30
+          time:
+            unit: "Y"
+            count: 1
+
+    - platForm: "hkjClass"
+      platFormName: "商学院"
+      member: "year1"
+      memberName: "钻石年卡会员"
+      #1998
+      orderTotal: "0.01"
+      payTotal: "0.01"
+      items:
+        - code: "120100"
+          appId: "31161"
+          count: 1
+          time:
+            unit: "Y"
+            count: 1
+        - code: "110001"
+          appId: "31161"
+          count: 30
+          time:
+            unit: "Y"
+            count: 1
